@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "TodoList",
+    "name": "Jadwalku",
     "slug": "TodoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-custom.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-custom.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-custom.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ranggarh.TodoList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4267790f-defd-4cfe-8229-b009c0fd36c7"
+      }
     }
   }
 }
